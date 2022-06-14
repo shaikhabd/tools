@@ -1,14 +1,16 @@
 from warnings import catch_warnings
 import streamlit as st
 import copy
-from rdkit import Chem
-from rdkit.Chem.Scaffolds import MurckoScaffold
-from rdkit.Chem import Draw
-from rdkit.Chem.Draw import IPythonConsole
-from IPython.display import display
-from rdkit.Chem.Draw import rdMolDraw2D
-from IPython.display import SVG
-
+try:
+ from rdkit import Chem
+ from rdkit.Chem.Scaffolds import MurckoScaffold
+ from rdkit.Chem import Draw
+ from rdkit.Chem.Draw import IPythonConsole
+ from IPython.display import display
+ from rdkit.Chem.Draw import rdMolDraw2D
+ from IPython.display import SVG
+except:
+     print()
 
 st. set_page_config(layout="wide")
 st.markdown("""
