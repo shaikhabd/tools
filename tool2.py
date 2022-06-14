@@ -173,6 +173,12 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
+st.markdown("""
+.styles_terminalButton__3xUnY{
+	display:none;
+}
+""",unsafe_allow_html=True)
+
 smiles = st.text_input('Enter SMILES below:',
                        'CC(C)(C)C1=CC=C(C=C1)C(=O)CC(=O)C2=CC=C(C=C2)OC')
 st.markdown(
