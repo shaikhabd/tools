@@ -1,4 +1,5 @@
 argon2-cffi==21.3.0
+rdkit==22.3.3
 argon2-cffi-bindings==21.2.0
 asttokens==2.0.5
 attrs==21.4.0
