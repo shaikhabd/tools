@@ -1,6 +1,5 @@
 from warnings import catch_warnings
 import streamlit as st
-from streamlit_option_menu import option_menu
 import copy
 from rdkit import Chem
 from rdkit.Chem.Scaffolds import MurckoScaffold
