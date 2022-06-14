@@ -206,6 +206,7 @@ left:2%;
 </style>
 
 """, unsafe_allow_html=True)
+
 for i in mol_t.GetAtoms():
     i.SetIntProp("atom_idx", i.GetIdx())
 for i in mol_t.GetBonds():
